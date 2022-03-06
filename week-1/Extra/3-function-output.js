@@ -3,12 +3,17 @@ function getNumber() {
   return Math.random() * 10;
 }
 
+//Math.ramdom es un metodo integrado para generar numeros aleatorios. El cual, cuando se ejecuta, devuelve un numero aleatorio que puede estar entre 0 y 1. Se incluye el 0 y se excluye el 1. Para obtener un numero aleatorio mayor que 1, se debe multiplicar el resultado de Math.random, por un numero. Se puede configurar tambien para que entregue resultados entre dos numeros.
+
 // Add comments to explain what this function does. You're meant to use Google!
 function s(w1, w2) {
   return w1.concat(w2);
 }
 
+//El metodo une dos o mas cadenas, no cambia las cadenas existentes y retorna una nueva cadena.
+
 function concatenate(firstWord, secondWord, thirdWord) {
+  return firstWord.concat(" ",secondWord, " ", thirdWord)
   // Write the body of this function to concatenate three words together.
   // Look at the test case below to understand what this function is expected to return.
 }

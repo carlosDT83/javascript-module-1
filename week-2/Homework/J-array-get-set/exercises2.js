@@ -7,6 +7,9 @@
 */
 
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
+var nvoVarNumbers = numbers.push(4)   //Agrega un elemento al final de un array
+
+//numbers[4] = 4;  //Agregar en posicion.
 
 /* 
   DO NOT EDIT BELOW THIS LINE

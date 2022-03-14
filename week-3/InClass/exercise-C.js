@@ -1,0 +1,43 @@
+function magician(yourFunc) {
+    console.log(
+      "I am magician! Watch as I mutate an array of strings to your heart's content!"
+    );
+    const namesArray = [
+      "James",
+      "Elamin",
+      "Ismael",
+      "Sanyia",
+      "Chris",
+      "Antigoni",
+    ];
+  
+    const magicOutput = yourFunc(namesArray);
+  
+    return magicOutput;
+  }
+
+  /*function nameToUpperCase (person) {
+      return person.toUpperCase();
+  }
+
+  function manipulateArray(array) {
+      const result = []
+      for (let i = 0; i < array.length; i++) {
+          const element = array[i];
+          result.push(nameToUpperCase(element))
+      }
+      return result;
+  }
+
+  console.log(magician(manipulateArray));*/
+
+  /*function potato(array) {
+    return array.map(it => it.toUpperCase())
+  }
+
+  console.log(magician(potato));
+
+  console.log(magician(array => array.map(item => item.toUpperCase)))*/
+
+  /*const toUpper = item => item.toUpperCase()
+  console.log(magician(array => array.map(toUpper())))*/
